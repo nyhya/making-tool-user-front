@@ -1,0 +1,380 @@
+.btnsss{ position: absolute; left: 0; bottom: 0; width: 100%; height: 30px; background-color: aqua;}
+html, body{ width: 100%; height: 100%; margin: 0; padding: 0; }
+.home{ width: 100%; height: 100%; font-size: 10px;}
+input{ border: 0; background-color: transparent; padding: 0; outline: none;}
+.wrap{ position: relative; }
+.on{ color: #003770 !important;}
+
+
+.rotation-btn-area{position: fixed; bottom: 0; left: 0; width: 100%; height: 70px; background-color: #554935;  }
+.rotation-btn-area .rotationbtn{ box-sizing: border-box; width: 50%; height: 100%; display: inline-block; padding: 15px 0px;}
+.rotation-btn-area .rotationbtn .rotationLeftImage{ width: 100%; height: 100%; border-right: 1px #FFF solid; background-image: url(../images/ico-rotation-right.png); background-position: center; background-repeat: no-repeat; background-size: 23px auto;  background-color: transparent; color: #FFF;  }
+.rotation-btn-area .rotationbtn .rotationRightImage{ width: 100%; height: 100%; background-color: transparent; color: #FFF; background-image: url(../images/ico-rotation-left.png); background-position: center; background-repeat: no-repeat; background-size: 23px auto;  background-color: transparent; color: #FFF;  }
+
+/* 로그인 */
+.login-wrap{ position: relative; width: 100%; height: 100%; background-image: url(../images/login-background.png); background-size: cover; background-repeat: no-repeat; background-position: center; text-align: center;}
+.login-wrap .symbol{  width: 110px; height: 35px; background-image: url(../images/login-kyobo-symbol.png); background-position: center; background-repeat: no-repeat; background-size: 100% auto; display: inline-block; margin-top: 11.4%; }
+.login-wrap .contents{ position: absolute; top: 49%; transform: translateY(-50%); width: 100%; height: 60.4%;  }
+.login-wrap .contents .txt-con { position: relative; max-width: 300px;  width: calc( 100% * 0.85); height: 0;   padding-bottom:24.4375%; margin: 0 auto; }
+.login-wrap .contents .txt-con .layout-con{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-image: url(../images/txt-tit-login.png); background-size: 100% auto; background-repeat: no-repeat; background-position: center;}
+.login-wrap .contents .image-trophy{ width: 100%; height: 50%;  background-image: url(../images/main_trophy.png); background-repeat: no-repeat; background-position: center; background-size: auto 100%; margin-top: 20px;}
+.login-wrap .contents .input-area{ position: relative; width: 100%; margin-top: 26px; line-height: 0; text-align: center; }
+.login-wrap .contents .input-area .input-box{ position: relative; width: 157px; height: 36px; display: inline-block; background-color: #FFF;  margin-bottom: 10px; border-radius: 50px; box-shadow: 3px 5px 3px rgba(78, 65, 48, 0.1) }
+.login-wrap .contents .input-area .input-box input{ position: absolute; left: 0; top: 0;  width: 100%;  height: 100%; text-align: center; }
+.login-wrap .contents .input-area .input-box input,
+.login-wrap .contents .input-area .input-box input::placeholder {font-size: 12px !important;}
+.login-wrap .contents .input-area .login-btn{ width: 157px; height: 36px; display: inline-block; border-radius: 50px; box-shadow: 3px 5px 3px rgba(78, 65, 48, 0.1); border: 0; background-color: #273d5d; color: #FFF; font-size: 1.45rem ;}
+.login-wrap .image-symbom{ position: absolute; bottom: 16px; width: 100%; height: 22px; background-image: url(../images/login-bottom-symbol.png); background-size: auto 100%; background-position: center; background-repeat: no-repeat;}
+
+
+
+
+
+/* 메인 home 컨텐츠 */
+.home-wrap{ position: relative; width: 100%; height: 100%; background-image: url(../images/home-background.png); background-position: center; background-size: 100% 100%; background-repeat: no-repeat;}
+.home-wrap .contents{ position: relative; box-sizing: border-box; height: calc(100% - 43px - 68px); text-align: center; padding: 0px 20px; overflow-y: auto; z-index: 10;} 
+.home-wrap .contents .deco-img{ width: 100%; height: 25px; display: inline-block; background-image: url(../images/home-deco-img01.png); background-size: auto 23px; background-position: center; background-repeat: no-repeat; }
+.home-wrap .contents .user-sales-name .name{ font-size: 2.0rem; color: #84662d; font-weight: 600;} 
+.home-wrap .contents  .user-sales-name .extra{ font-size: 2.0rem; color: #84662d; font-weight: 200;} 
+.home-wrap .contents  .desc{ font-size: 1.4rem; color: #84662d; font-weight: 200;} 
+.home-wrap .contents  .empty-profile-info{position: relative; width: 61.3333333%; height: 0; padding-bottom: 92.8%; display: inline-block; background-image: url(../images/home-border-box.png); background-position: center; background-size: auto 100%; background-repeat: no-repeat; /*background-color: #f5ebd5; border: 2px; border-style: dashed; border-color: rgba(132, 102, 45, 0.5); border-radius: 15px;*/ margin-top: 10px;} 
+.home-wrap .contents  .empty-profile-info .layout-box{position: absolute; left: 50%; top: 50%; width: 100%; height: 100%; }
+.home-wrap .contents  .empty-profile-info .layout-box .make-profile-btn{ width: 71.5%; height: 30px; background-color: #132f56; border-radius: 50px; font-size:1.4rem; color: #FFF; margin-top: 106%;}
+.home-wrap .contents .layout-box{ position: absolute; left: 50%; top: 49%; width: 100%; transform: translate(-50%,-50%);}
+.home-wrap .contents .layout-box .deco-img{ width: 100%; height: 25px; display: inline-block; background-image: url(../images/home-deco-img01.png); background-size: auto 23px; background-position: center; background-repeat: no-repeat; }
+.home-wrap .contents .layout-box .user-sales-name .name{ font-size: 2.0rem; color: #84662d; font-weight: 600;} 
+.home-wrap .contents .layout-box .user-sales-name .extra{ font-size: 2.0rem; color: #84662d; font-weight: 200;} 
+.home-wrap .contents .layout-box .desc{ font-size: 1.4rem; color: #84662d; font-weight: 200;} 
+.home-wrap .contents .layout-box .empty-profile-info{position: relative; width: 61.3333333%; height: 0; padding-bottom: 92.8%; display: inline-block; background-image: url(../images/home-border-box.png); background-position: center; background-size: auto 100%; background-repeat: no-repeat; /*background-color: #f5ebd5; border: 2px; border-style: dashed; border-color: rgba(132, 102, 45, 0.5); border-radius: 15px;*/ margin-top: 10px;} 
+.home-wrap .contents .layout-box .empty-profile-info .layout-box{position: absolute; left: 50%; top: 50%; width: 100%; height: 100%; }
+.home-wrap .contents .layout-box .empty-profile-info .layout-box .make-profile-btn{ width: 71.5%; height: 42px; background-color: #132f56; border-radius: 50px; font-size:1.4rem; color: #FFF; margin-top: 106%; box-shadow: 5px 5px 8px 0px rgba(78, 65, 48, 0.15) }
+.home-wrap .contents .layout-box .input-area{ padding: 30px 0px;  }
+.home-wrap .contents .input-area{ margin-top: 40px;}
+.home-wrap .contents .input-area dl{ position: relative; margin-top: 20px; }
+.home-wrap .contents .input-area dl:first-child{ margin-top: 0;}
+.home-wrap .contents .input-area dl dt.question{ position: relative; height: 48px;  background-image: url(../images/home-input-ico01.png); background-position: 28px 52%; background-repeat: no-repeat; background-size: auto 40%; background-color: #957c56; border-top-left-radius: 15px; border-top-right-radius: 15px; text-align: left; color: #FFF; font-size: 1.6rem; padding-left: 50px; line-height: 48px;}
+.home-wrap .contents .input-area dl dt.question.ico2{ background-image: url(../images/home-input-ico02.png); }
+.home-wrap .contents .input-area dl dt.question.ico3{ background-image: url(../images/home-input-ico03.png); }
+.home-wrap .contents .input-area dl dt.question button{ position: absolute; height: 28px; right: 15px; top: 50%; transform: translateY(-50%); font-size: 1rem; color: #FFF; padding: 2px 10px 2px 25px; border: 1px #FFF solid; background-color: transparent; border-radius: 50px; background-image: url(../images/allow-rotation.png); background-repeat: no-repeat; background-position: 8px center; background-size: auto 60%; letter-spacing: -1px; font-weight: 200; }
+.home-wrap .contents .input-area dl dd.answer{ position: relative;box-sizing: border-box; width: 100%; background-color: #FFF; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; border: 0; padding: 20px 30px; padding-left: 25px; background-color: #f5f1eb; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.05); font-family: 'Noto Sans KR' !important; }
+.home-wrap .contents .input-area dl dd.region input{ font-size: 1.3rem; outline-color: #00C2FF; outline-width: 1px; box-sizing: border-box; width: 100% ; height:35px; line-height: 35px; border: 0;  padding: 0; margin: 0; border-radius: 5px; resize: none;  padding-left: 5px;    background-color: #FFF;padding-right: 30px; word-spacing: 1px; font-family: 'Noto Sans KR'; padding-left: 10px; color: #202020;}
+.home-wrap .contents .input-area dl dd.region input::placeholder{ font-weight: 600;  font-weight: 500; font-size: 1.2rem; letter-spacing: -1px; color: #AFAFAF;     font: 400 13.3333px Arial !important; padding-left: 5px; }
+.home-wrap .contents .input-area dl dd.answer .guide-txt{ color: #4E4130; font-size: 1.15rem; letter-spacing: -0.5px; text-align: left; padding: 0px; font-weight: 200;  }
+.home-wrap .contents .input-area dl dd.answer .guide-txt.desc{ padding-left: 15px; background-image: url(../images/bullet-dot.png); background-repeat: no-repeat; background-position: 6px 8px; word-break: keep-all;text-align: justify; word-spacing: -0.5px; }
+.home-wrap .contents .input-area dl dd.answer .inner-input{ padding-top: 20px; margin-top: 0;}
+.home-wrap .contents .input-area dl dd.answer .inner-input dt.title-txt{ color: #806746; font-size: 1.35rem; font-weight: 400; text-align: left; padding: 5px 0px;}
+.home-wrap .contents .input-area dl dd.answer .inner-input dd.answer-txt{ position: relative;color: #AFAFAF; font-weight: 200; font-size: 1.1rem;   }
+.home-wrap .contents .input-area dl dd.answer .inner-input dd.answer-txt.contents{  padding: 0;}
+.home-wrap .contents .input-area dl dd.answer .inner-input dd.answer-txt.contents textarea{ position: relative; top: 1px; height: 80px; width:calc(100% - 2px) ; outline-width: 1px; outline-color: #00C2FF;  text-align: left;background-color: #FFF;border-radius: 5px; word-spacing: 1px; line-height: 140%; color: #202020; }
+.home-wrap .contents .input-area dl dd.answer .inner-input dd.answer-txt .extra-txt{text-align: right; color: #bfb3a2;font-weight: 200;padding-right: 5px;}
+.home-wrap .contents .input-area dl dd.answer .inner-input dd.answer-txt textarea{ outline-color:#00C2FF ; height: 55px; width: 100%; text-align: left; background-color: #FFF; border-radius: 5px; padding-right: 20px; font-family: 'Noto Sans KR'; word-spacing: 1px; font-size: 1.3rem; line-height: 140%; }
+.home-wrap .contents .input-area dl dd.answer .inner-input dd.answer-txt textarea::placeholder{ font-weight: 600;  font-weight: 500; font-size: 1.2rem; letter-spacing: -1px; color: #AFAFAF;}
+.home-wrap .contents .input-area dl dd.answer.memo textarea{ width: calc( 100% - 20px) ; height: calc( 55px - 20px); border: 0; background-color: transparent; padding: 10px; margin: 0; } 
+.home-wrap .contents .input-area dl textarea{ box-sizing: border-box; width: 100%; height: 100%; background-color: #FFF; padding: 10px; border: 0; border-radius: 5px; }   
+.home-wrap .contents .input-area dl dd.answer .historylist{position: relative; text-align: left;  margin-bottom: 10px; }
+.home-wrap .contents .input-area dl dd.answer .historylist .item{  position: relative; box-sizing: border-box; width: calc(100% - 20px) ;  border-radius: 5px;  background-image: url(../images/home-history-ico1.png); background-position: 10px center; background-size: 18px 18px; background-repeat: no-repeat; font-weight: 200; text-align: left; display: inline-block; font-size: 1.2rem; color: #202020; line-height: 100%; background-color: #FFF; }
+.home-wrap .contents .input-area dl dd.answer .historylist .item input{width: calc(100% - 36px - 12px); height: 100%; padding: 12px 12px 12px 36px; border-radius: 5px !important; letter-spacing: -1px; }
+.home-wrap .contents .input-area dl dd.answer .historylist .item input.on{ color: #202020 !important;}
+.home-wrap .contents .input-area dl dd.answer .historylist .item input:focus{  box-shadow: 0 0 0 1px #00C2FF;}
+.home-wrap .contents .input-area dl dd.answer .historylist .item input::placeholder{ color: #AFAFAF; font-size: 1.25rem !important;}
+.home-wrap .contents .input-area dl dd.answer .historylist.on{ color: #202020 !important;}
+.home-wrap .contents .input-area dl dd.answer .historylist.off .item input{ color: #AFAFAF;}
+.home-wrap .contents .input-area dl dd.answer .historylist.off .item input:focus{ color: #202020;}
+.home-wrap .contents .input-area dl dd.answer .historylist.off .item input.on{ color: #202020 !important; }
+.home-wrap .contents .input-area dl dd.answer .historylist[data-index="1"] .item{ background-image: url(../images/home-history-ico1.png); background-position: 10px center; background-size: 18px 18px; background-repeat: no-repeat;}
+.home-wrap .contents .input-area dl dd.answer .historylist[data-index="2"] .item{ background-image: url(../images/home-history-ico2.png); background-position: 10px center; background-size: 18px 18px; background-repeat: no-repeat;}
+.home-wrap .contents .input-area dl dd.answer .historylist[data-index="3"] .item{ background-image: url(../images/home-history-ico3.png); background-position: 10px center; background-size: 18px 18px; background-repeat: no-repeat;}
+.home-wrap .contents .input-area dl dd.answer .historylist[data-index="4"] .item{ background-image: url(../images/home-history-ico4.png); background-position: 10px center; background-size: 18px 18px; background-repeat: no-repeat;}
+.home-wrap .contents .input-area dl dd.answer .historylist.off .item{ background-color: #e6dfd4; color: #AFAFAF; background-image: url(../images/home-history-ico-off.png); background-position: 10px center; background-size: 18px 18px; background-repeat: no-repeat;  }
+.home-wrap .contents .input-area dl dd.answer .historylist.inputBox{ border-radius: 5px; border: 1px #957C56 solid; background-image: url(../images/home-history-ico-off.png); background-position: 10px center; background-size: 18px 18px; background-repeat: no-repeat; padding: 12px 12px 12px 36px; margin-bottom: 20px;}
+.home-wrap .contents .input-area dl dd.answer .historylist.inputBox input::placeholder{color: #AFAFAF; font-size: 1.25rem !important;}
+.home-wrap .contents .input-area dl dd.answer .historylist button{ position: absolute; right: -25px; width: 38px; height: 100%; display: inline-block; background-image: url(../images/home-history-delete.png); background-position: 10px center; background-size: auto 55%; background-repeat: no-repeat; background-color: transparent; } 
+.home-wrap .contents .input-area dl dd.answer button{ display: inline-block;  background-image: url(../images/home-history-btn-ico.png); background-position: center; background-size: auto 80%; background-position: left center; background-repeat: no-repeat; padding-left: 20px;background-color: #f5f1eb; }
+.home-wrap .contents .input-area dl dd.answer button span{ color: #4E4130;  font-weight: 200; font-size: 1.35rem;}
+.home-wrap .contents .btn-bottom{ position: relative; text-align: left; margin: 20px 0px; }
+.home-wrap .contents .btn-bottom .cancle{ width: 33%; height: 42px; display: inline-block;  background-color: #FFF; border-radius: 50px; color: #132F56; font-size: 1.5rem; margin-right: 15px; box-shadow: 5px 5px 8px 0px rgba(78, 65, 48, 0.05) !important }
+.home-wrap .contents .btn-bottom .save{ position: absolute; right: 0; width: 63%; height: 42px; display: inline-block;  background-color: #132f56; border-radius: 50px; color: #FFF; font-size: 1.3rem;  }
+.home-wrap .contents .btn-bottom .btn{ box-shadow: 5px 5px 8px 0px rgba(78, 65, 48, 0.18) }
+.home-wrap .contents .nofile-box .no-file{ width: 125px; height: 80px; display: inline-block; background-image: url(../images/complate-no-file.png); background-size: contain; margin-top: 45%; }
+.home-wrap .contents .nofile-box .btns{ margin-top: 45%;}
+.home-wrap .contents .nofile-box .btns .make-profile-btn{ height: 30px; width: 150px; font-size: 1.3rem; color: #FFF; background-color: #132F56; border-radius: 50px; }
+.home-wrap .contents .profile-list-con{ box-sizing: border-box; width: 100%; height: calc(100% - 50px); padding: 17px; text-align: left; overflow-y: auto;}
+.home-wrap .contents .profile-list-con .profile-item{position: relative; width: calc( 50% - 5px); display: inline-block; padding-bottom: 20px;}
+.home-wrap .contents .profile-list-con .profile-item:nth-child(odd){ margin-right: 10px;}
+.home-wrap .contents .profile-list-con .profile-item .image-container{ position: relative; width: 100%; padding-bottom: 148.275862%;  }
+.home-wrap .contents .profile-list-con .profile-item .image-container > div { position: absolute; left:0; top:0;width: 100%; height: 100%; display: flex;justify-content: center;align-items: center;}
+.home-wrap .contents .profile-list-con .profile-item .image-container > div > img {box-shadow: 5px 5px 5px 0px rgba(78, 65, 48, 0.15);}
+.home-wrap .contents .profile-list-con .profile-item.on .image-container > div > img{ border: 1px #00C2FF solid;}
+.home-wrap .contents .profile-list-con .profile-item .date{ display: inline-block; line-height: 100%; font-size: 1.0rem; border: 1px #4E4130 solid; color:#4E4130; padding: 5px 10px; border-radius: 15px; margin-top: 10px; }
+.home-wrap .contents .profile-list-con .profile-item .date.on{ color:#4E4130 !important; }
+.home-wrap .contents .profile-list-con .profile-item .date.off{ opacity: 0.5; }
+.home-wrap .contents .profile-list-con .profile-item.on button{ position: absolute; left: 10px; top: 10px; width: 20px; height: 20px; background-image: url(../images/Main-profile-list-onCheck.png); background-position: center; background-size: contain; background-color: transparent; z-index: 1; box-shadow: 2px 2px 3px 0px rgba(78, 65, 48, 0.3); border-radius: 50%; }
+.home-wrap .contents .profile-list-con .profile-item.off button{ position: absolute; left: 10px; top: 10px; width: 20px; height: 20px; background-image: url(../images/Main-profile-list-offCheck.png); background-position: center; background-size: contain; background-color: transparent;z-index: 1; box-shadow: 2px 2px 3px 0px rgba(78, 65, 48, 0.3); border-radius: 50%;}
+.home-wrap .contents .profile-list-con .profile-item.off .image-container.edit{ opacity: 0.5;}
+.home-wrap .contents .bottom-btns { box-sizing: border-box; position: absolute; left: 0; bottom: 0; width: 100%; height: 68px; background-color: #9B8664; padding: 15px 0px; }
+.home-wrap .contents .bottom-btns button{ position: relative; width: 50%; height: 100%; background-color: transparent; }
+.home-wrap .contents .bottom-btns button span{ font-size: 1.8rem; color: #FFF; text-align: center; font-weight: 200;}
+.home-wrap .contents .bottom-btns button:first-child{ border-right: 1px #FFF solid;}
+.home-wrap .contents .bottom-btns button span:first-child{ width: 50%; }
+
+
+
+
+
+/* 프로필 메인 리스트 */
+.home-wrap .contents .history-list-area{ padding: 40px 0px 20px 0px; margin-bottom: 20px;}
+.home-wrap .contents .history-list-area dl{ position: relative; margin-top: 20px; }
+.home-wrap .contents .history-list-area dl dd.answer{ font-size: 1.3rem; box-sizing: border-box; width: 100%; background-color: #F5F1EB; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; border: 0; padding: 20px 30px; box-shadow: 5px 5px 5px rgba(78, 65, 48, 0.05); }
+.home-wrap .contents .history-list-area dl dd.answer .inner-input{ padding: 20px 10px 10px 0px; margin-top: 0;}
+.home-wrap .contents .history-list-area dl dd.answer .inner-input dt.title-txt{ color: #806746; font-size: 1.35rem; font-weight: 400; text-align: left;}
+.home-wrap .contents .history-list-area dl dd.answer .inner-input dd.answer-txt{ color: #AFAFAF; font-weight: 200; font-size: 1.1rem;   }
+.home-wrap .contents .history-list-area dl dd.answer .inner-input dd.answer-txt textarea{ text-align: center;}
+.home-wrap .contents .history-list-area dl dd.answer.memo textarea{ width: calc( 100% - 20px) ; height: calc( 55px - 20px); border: 0; background-color: transparent; padding: 10px; margin: 0; outline: none;}
+.home-wrap .contents .history-list-area dl dd.answer .guide-txt{  color: #4E4130; font-size: 1.15rem; text-align: left;  letter-spacing: -0.5px; font-weight: 200; padding-bottom:10px ; word-break: keep-all;}
+.home-wrap .contents .history-list-area dl dd.answer .guide-con{ margin-bottom: 10px }
+.home-wrap .contents .history-list-area dl dd.answer .guide-txt.desc{ padding-left: 15px; background-image: url(../images/bullet-dot.png); background-repeat: no-repeat; background-position: 6px 8px; word-break: keep-all; padding-bottom: 0px;text-align: justify; word-spacing: -0.5px;}
+.home-wrap .contents .history-list-area dl dt.question{ height: 48px;  background-image: url(../images/home-input-ico01.png); background-position: 28px 52%; background-repeat: no-repeat; background-size: auto 40%; background-color: #957c56; border-top-left-radius: 15px; border-top-right-radius: 15px; text-align: left; color: #FFF; font-size: 1.6rem; padding-left: 50px; line-height: 48px;}
+.home-wrap .contents .history-list-area dl dt.question.ico2{  background-image: url(../images/home-input-ico02.png); }
+.home-wrap .contents .history-list-area dl dt.question.ico3{  background-image: url(../images/home-input-ico03.png); }
+.home-wrap .contents .history-list-area dl:first-child{ margin-top: 0;}
+.home-wrap .contents .history-list-area dl dd.answer .list-txt{ color: #AFAFAF; font-size: 1.3rem; font-weight: 200; text-align: left;}
+.home-wrap .contents .history-list-area dl dd.answer .list-txt.on{ color: #202020 !important; font-size: 1.3rem; font-weight: 400; text-align: left; }
+.home-wrap .contents .history-list-area dl dd.answer .inner-input .empty-txt{  color: #AFAFAF; font-size: 1.2rem; font-weight: 200; line-height: 170%; word-break: break-all; word-wrap: break-word; text-align: left;  }
+.home-wrap .contents .history-list-area dl dd.answer .inner-input .empty-txt.on{ font-size: 1.3rem; color:#202020 !important; font-weight: 400;}
+.home-wrap .contents .history-list-area dl dd.answer .txtOn{ font-size: 1.3rem; color: #202020; line-height: 200%; font-weight: 400; text-align: left; padding-left: 10px;}
+.home-wrap .contents .history-list-area dl dd.answer .txtOff{ font-size: 1.2rem; color: #AFAFAF; line-height: 200%; font-weight: 100; text-align: left;padding-left: 10px;  }
+
+.home-wrap .contents .edit-btn-container { box-sizing: border-box; position: fixed; right:0px; top:  82px; width: 100%;height: 42px; text-align: right; padding-right: 15px;}
+.home-wrap .contents .edit-btn-container  .edit-history{  height: 56px; background-color:rgba(0, 194, 255, 0.9); border-radius: 50px;  box-shadow: 5px 5px 8px 0px rgba(78, 65, 48, 0.18)  }
+.home-wrap .contents .edit-btn-container  .edit-history span{ box-sizing: border-box;  display: block; text-align: right; font-size: 1.5rem; color: #FFF; font-weight: 200; line-height: 120%;  background-image: url(../images/home-history-icon.png); background-repeat: no-repeat; background-size: auto 80% ; background-position: 27px center; padding: 0px 28px 0px 63px; }
+
+
+/* 메인 프로필 타입 선택 , 메인 나의 프로필 리스트*/
+.home-wrap .contents .profile-type-con{ width: 100%; margin: 10px 0px;  }
+.home-wrap .contents .myprofile-list-con .swiper-container .layout{ position: relative;width: 100%; height: 0; padding-bottom:150%; background-size: 100% auto; background-repeat: no-repeat; margin: 0 auto; }
+.home-wrap .contents .profile-type-con .swiper-container .design-type{ position: relative; width: 52%; height: 0; padding-bottom:78%; background-size: 100% auto; background-repeat: no-repeat; margin: 0 auto; }
+.home-wrap .contents .myprofile-list-con .swiper-container .layout > div ,
+.home-wrap .contents .profile-type-con .swiper-container .design-type > div {position: absolute; left:0; top:0;width: 100%; height: 100%; display: flex;justify-content: center;align-items: center; background-color: transparent;}
+.home-wrap .contents .myprofile-list-con .swiper-container .layout img,
+.home-wrap .contents .profile-type-con .swiper-container .design-type img {border-radius: 10px;overflow: hidden; box-shadow: 5px 5px 5px 0px rgba(78, 65, 48, 0.15)}
+.home-wrap .contents .select-btn{ background-color: #132F56; color: #FFF; height: 42px !important; padding: 0px 33px; border-radius: 50px; font-size: 1.7rem; box-shadow: 5px 5px 8px 0px rgba(78, 65, 48, 0.18)}
+.home-wrap .contents .myprofile-list-con { width: 100%; margin: 10px 0px; margin-top: -20px;}
+.home-wrap .contents .myprofile-list-con .swiper-container {padding :30px 20px 0px;}
+.home-wrap .contents .myprofile-list-con .swiper-container .swiper-slide {width: 65% !important;}
+
+@media screen and (max-height:455px) {
+    .home-wrap .contents .select-btn{ font-size: 1.2rem;}
+    .home-wrap .contents .profile-type-con .swiper-container .design-type{ width: 43%; padding-bottom:65%; }
+}
+@media screen and (min-height:456px) and (max-height:634px) {
+    .home-wrap .contents .select-btn{ font-size: 1.5rem;}
+    .home-wrap .contents .profile-type-con .swiper-container .design-type{ width: 53%; padding-bottom:77%; }
+}
+@media screen and (min-height:635px){
+    .home-wrap .contents .select-btn{ font-size: 1.7rem;}
+    .home-wrap .contents .profile-type-con .swiper-container .design-type{ width: 63%; padding-bottom:95%; }
+}
+
+/* 메인 페이지 헤더 */
+.header-wrap{ position: relative; box-sizing: border-box; width: 100%; padding: 10px 20px 0px 20px;z-index: 20;}
+.header-wrap .top-logo{ width: 94px; height: 30px; display: inline-block; background-image: url(../images/header-top-symbol.png); background-position: left center; background-size: 100% auto ; background-repeat: no-repeat; }
+.header-wrap .btn-profile-edit{ position: absolute; right: 20px; top: 0px; height: 43px; color: #8b6e37;  background-color: transparent; display: inline-block; font-size: 1.5rem; font-weight: 600;}
+
+
+/* 메인 페이지 에디트 하단 컴포넌트 */
+.edit-component-wrap{ position: fixed; bottom: 0; left: 0; width: 100%; height: 68px; z-index: 20;}
+.edit-component-wrap .container{ position: absolute; left: 0; top:0; width: 100%; height: 100%; background-color:#f9f4eb; }
+.edit-component-wrap .container .btn{ width: calc(100%/3); height: 100%; display: inline-block; text-indent: -999999px;}
+.edit-component-wrap .container .btn01{ background-image: url(../images/home-bottom-btn-main-off.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat; }
+.edit-component-wrap .container .btn02{background-image: url(../images/home-bottom-btn-edit-off.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+.edit-component-wrap .container .btn03{background-image: url(../images/home-bottom-btn-write-off.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+.edit-component-wrap .container .btn01.on{ background-image: url(../images/home-bottom-btn-main-on.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat; }
+.edit-component-wrap .container .btn02.on{background-image: url(../images/home-bottom-btn-edit-on.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+.edit-component-wrap .container .btn03.on{background-image: url(../images/home-bottom-btn-write-on.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+
+
+/* 프로필 에디트 페이지 헤더 */
+.profile-header-wrap.manager-profile,
+.profile-header-wrap.create-profile{ position: relative; box-sizing: border-box; width: 100%; height: 43px; padding: 0px; z-index: 3000;}
+.profile-header-wrap.create-profile p,
+.profile-header-wrap.manager-profile p{ font-size: 15px; font-weight: 400; text-align: center; line-height: 43px;}
+.profile-header-wrap.create-profile .btn-back,
+.profile-header-wrap.manager-profile .btn-back-arrow{ position: absolute; left: 20px; width: 40px; height: 43px; margin-left: 10px; background-color: transparent; background-position:left center; background-size: 50%; background-repeat: no-repeat; font-weight: 600; margin-left: 0; text-align: left; font-size: 1.5rem;}
+.profile-header-wrap.manager-profile .btn-back-arrow{background-image: url(../images/btn-back-arrow.png);}
+.profile-header-wrap.manager-profile .btn-back{ position: absolute; left: 20px; top: 0px; height: 100%;  background-color: transparent; display: inline-block; font-size: 1.5rem; font-weight: 600; }
+.profile-header-wrap.create-profile .btn-save,
+.profile-header-wrap.manager-profile .btn-save{ position: absolute; right: 20px; top: 0px; width:40px; text-align: right; height: 100%;  background-color: transparent; display: inline-block; font-size: 1.5rem; font-weight: 600;}
+.profile-header-wrap.create-profile p,
+.profile-header-wrap.create-profile .btn-back,
+.profile-header-wrap.create-profile .btn-save {color:#FFF;}
+.profile-header-wrap.manager-profile p,
+.profile-header-wrap.manager-profile .btn-back,
+.profile-header-wrap.manager-profile .btn-save {color:#8b6e37;}
+.profile-header-wrap.create-profile .btn-close{position: absolute; right: 5px; top: 3px; width: 40px; height: 40px; background-image: url(../images/complete-close.png); background-repeat: no-repeat; background-position: center; background-size: 18px auto; background-color: transparent; }
+
+/* 프로필 에디트 페이지 하단 컴포넌트 */
+.profile-edit-component-wrap{ position: absolute; top: calc(100% - 68px); left: 0; width: 100%; height:68px; background-color:#574c3b; z-index: 999;}
+.profile-edit-component-wrap .contain{ position: absolute; left: 0; top:0; width: 100%; height: 100%; }
+.profile-edit-component-wrap .contain .btn{ width: calc(100%/3); height: 100%; display: inline-block; text-indent: -999999px;}
+.profile-edit-component-wrap .contain .btn01{ background-image: url(../images/make-background-btn-off.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat; }
+.profile-edit-component-wrap .contain .btn02{background-image: url(../images/make-profile-btn-off.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+.profile-edit-component-wrap .contain .btn03{background-image: url(../images/make-trophy-btn-off.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+.profile-edit-component-wrap .contain .btn01.on{ background-image: url(../images/make-background-btn-on.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat; }
+.profile-edit-component-wrap .contain .btn02.on{background-image: url(../images/make-profile-btn-on.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+.profile-edit-component-wrap .contain .btn03.on{background-image: url(../images/make-trophy-btn-on.png); background-position: center; background-size:auto 60%; background-repeat: no-repeat;}
+.profile-edit-component-wrap .contain .select-box{ position: absolute; top: -180px; width: 100%; height: 180px; background-color: rgba(0, 0, 0, 0.7); z-index: 9999; }
+.profile-edit-component-wrap .contain .select-box .close{ position: absolute; top: 8px; right: 15px; width: 40px; height: 40px; text-indent: -9999px; background-color: transparent; background-image: url(../images/make-close-btn.png); background-repeat: no-repeat; background-size: 14px; background-position: right; outline:none}
+/* 프로필 이미지 만들기 선택 */
+.profile-edit-component-wrap .contain .profile{ box-sizing: border-box; padding: 20px;}
+.profile-edit-component-wrap .contain .profile .desc-txt{ font-size: 1.4rem; font-weight: 400; color: #FFF; margin-bottom: 10px; line-height: 100%;}
+.profile-edit-component-wrap .contain .profile .btn-area{ position: relative; text-align: center;}
+.profile-edit-component-wrap .contain .profile .btn-area div{ width: 90px; max-width: 111px; height: 100%; display: inline-block; background-color: transparent; background-image: url(../images/profile-default.png); background-size: 100% auto; background-repeat: no-repeat; background-position: center top;}
+.profile-edit-component-wrap .contain .profile .btn-area div > span{ color: #FFF; font-weight: 200; display: inline-block; font-size: 1.35rem; margin-top: 100px;letter-spacing: -0.5px;}
+.profile-edit-component-wrap .contain .profile .btn-area div.default-img{ position: absolute; left: 0; background-image: url(../images/profile-default.png); background-position: top  left; }
+.profile-edit-component-wrap .contain .profile .btn-area div.default-img.on{ background-image: url(../images/profile-default.png);  }
+.profile-edit-component-wrap .contain .profile .btn-area div.empty-img{ background-image: url(../images/profile-empty.png); background-position: top  center;}
+.profile-edit-component-wrap .contain .profile .btn-area div.empty-img.on{ background-image: url(../images/profile-empty.png); background-position: top  center;}
+.profile-edit-component-wrap .contain .profile .btn-area div.custom-img{ position: absolute; right: 0; background-image: url(../images/profile-gallery.png); background-position: top  right;}
+.profile-edit-component-wrap .contain .profile .btn-area div.custom-img.on{ position: absolute; right: 0; background-image: url(../images/profile-gallery.png); background-position: top  right;}
+.profile-edit-component-wrap .contain .profile .btn-area div label{ position: absolute; left: 0; top: 0; width: 100%; height: 90px; }
+/* 배경 이미지 만들기 선택 */
+.profile-edit-component-wrap .contain .background{ box-sizing: border-box; padding: 20px;}
+.profile-edit-component-wrap .contain .background .desc-txt{ font-size: 1.4rem; font-weight: 400; color: #FFF; margin-bottom: 10px; line-height: 100%;}
+.profile-edit-component-wrap .contain .background .btn-area{position: relative; text-align: center;}
+.profile-edit-component-wrap .contain .background .btn-area div{position: relative; width: 90px; height: 100%; display: inline-block; background-color: transparent; background-image: url(../images/profile-default.png); background-size: 100% auto; background-repeat: no-repeat; background-position: center top;}
+.profile-edit-component-wrap .contain .background .btn-area div > span{ color: #FFF; font-weight: 200; display: inline-block; font-size: 1.35rem; margin-top: 100px;}
+.profile-edit-component-wrap .contain .background .btn-area div.default-img{ position: absolute; left: 0; background-image: url(../images/make-deafultA-background.png); background-position: top  left;}
+.profile-edit-component-wrap .contain .background .btn-area div.empty-img{ background-image: url(../images/make-deafultB-background.png); background-position: top  center;}
+.profile-edit-component-wrap .contain .background .btn-area div.custom-img{position: absolute; right: 0; background-image: url(../images/profile-gallery.png); background-position: top right;}
+.profile-edit-component-wrap .contain .background .btn-area div label{ position: absolute; left: 0; top: 0; width: 100%; height: 90px; }
+/* 트로피 이미지 만들기 선택 */
+.profile-edit-component-wrap .contain .trophy{ box-sizing: border-box; padding: 20px;}
+.profile-edit-component-wrap .contain .trophy .desc-txt{ font-size: 1.4rem; font-weight: 400; color: #FFF; margin-bottom: 10px; line-height: 100%;}
+.profile-edit-component-wrap .contain .trophy .btn-area{ text-align: center;}
+.profile-edit-component-wrap .contain .trophy .btn-area div > span{ color: #FFF; font-weight: 200; display: inline-block; font-size: 1.3rem; margin-top: 110px;}
+.profile-edit-component-wrap .contain .trophy .btn-area div{ width:102px; height: 100%; display: inline-block; background-color: transparent; background-image: url(../images/profile-default.png); background-size: 100% auto; background-repeat: no-repeat; background-position: center top !important;}
+.profile-edit-component-wrap .contain .trophy .btn-area div.default-img{ background-image: url(../images/make-deafultA-background.png); background-position: center; margin-right: 30px;}
+.profile-edit-component-wrap .contain .trophy .btn-area div.empty-img{ background-image: url(../images/make-deafultB-background.png); background-position: top  center;}
+.profile-edit-component-wrap .contain .trophy .btn-area div.custom-img{ position: relative; background-image: url(../images/trophy_thumb_off.jpg); background-position: top right;}
+.profile-edit-component-wrap .contain .trophy .btn-area div label{ position: absolute; left: 0; top: 0; width: 100%; height: 100px; }
+.custom-img label { display: inline-block; cursor: pointer; } 
+.custom-img input[type="file"] { /* 파일 필드 숨기기 */ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0; }
+
+
+/* 프로필 만들기 완료 저장*/
+.complate-wrap{ position: fixed; bottom: 0; left: 0; width: 100%; height:68px; background-color: #574c3b; }
+.complate-wrap .contain button{ width: 50%; height: 68px; display: inline-block; background-position: center; background-repeat: no-repeat; background-size:auto 40px; background-color: transparent; text-indent: -9999px;}
+.complate-wrap .contain button.edit{ background-size: auto 50%; background-image: url(../images/complate-edit.png); background-position: center; background-size: auto 40px; background-repeat: no-repeat;}
+.complate-wrap .contain button.download{ background-size: auto 50%; background-image: url(../images/complate-download.png); background-position: center; background-size: auto 40px; background-repeat: no-repeat;}
+.complate-wrap .contain button p{ width: calc(100 - 1px); height: 60%; border-right: 1px #FFF solid;}
+.complate-wrap .contain button:last-child p{ border-right: 0px;}
+
+
+/* 프로필 제작 페이지 */
+.template-wrap{ width: 100%;  height: 100%;}
+.template-wrap .loadAwardBtn{ box-sizing: border-box; position: absolute; left: 66%; top:72%; border-radius: 50px; background-color: rgba(0, 194, 255, 0.85); background-image: url(../images/home-award-load-ico.png); background-repeat: no-repeat; background-size: auto 45%; background-position: 13px center; text-align: right; font-size: 1.5rem; color: #FFF; line-height: 120%; padding: 2.66666667% 4% 2.66666667% 12%; font-weight: 200; box-shadow: 2px 5px 5px rgba(78, 65, 48, 0.1); z-index: 998;}
+.template-wrap .container{ width: 100%; height: 100%; background-image: url(../images/profileEdit-background.png); background-position: center; background-size: 100% 100%; background-repeat: no-repeat; }
+
+
+/*cavas-wrap*/
+.cavas-wrap{position: absolute;  left: 50%; top:48%; transform: translate(-50%, -50%); box-sizing: border-box; width: 100%; height: calc(100% - 43px - 68px);  z-index: 995; display: flex; align-items: center; }
+.cavas-wrap .layout{ margin: 0 auto; }
+.cavas-wrap .layout-wrap{position: relative; width: 100%; height: 0;   padding-bottom: 150%;}
+.cavas-wrap .layout-wrap .layout{ display: inline-block;}
+.cavas-wrap .layout-wrap .stageCon{ position: relative; left: 0; top: 0; width: 100%; height: 100%; }
+.cavas-wrap .layout-wrap .text-guide{ position: absolute; bottom: 0; width: 100%; height:29%; background-image: url(../images/cropprofile-guide.png); background-repeat: no-repeat;background-size: 85% auto; background-position: center top;}
+
+
+/* swiper */
+.swiper-wrapper .custom-slide{ display: flex; margin: 0px 20px 20px 0px; box-shadow: 2px 5px 5px rgba(78, 65, 48, 0.1); border-radius: 10px; }
+.swiper-container{ box-sizing: border-box; }
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{ bottom: 0px !important; }
+.swiper-pagination-bullet{ height: 6px !important; width: 6px !important; outline: none;}
+.swiper-pagination-bullet-active{ width: 20px !important; border-radius: 5px !important; /*transition: width 0.5s;*/ background-color: #4e4130 !important;}
+.swiper-wrapper{ padding-bottom: 18px;}
+.custom-prev{ position: absolute; cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--swiper-navigation-color, var(--swiper-theme-color)); top: 0px !important; left: 15px  !important; width: 60px !important; height: 20px !important; z-index: 9999 !important; margin: 0 !important;  outline: none;}
+.custom-next{position: absolute; cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--swiper-navigation-color, var(--swiper-theme-color)); top: 0px !important; right: 15px  !important; width: 60px !important;; height: 20px !important; z-index: 9999 !important; margin: 0 !important;   outline: none;}
+.custom-prev::after{ width: 45px !important; height: 20px !important; content: '' !important; background-image: url(../images/btn_arrow_left.png); background-size: 100% auto; background-position: center; background-repeat: no-repeat; }
+.custom-next::after{ width: 45px !important; height: 20px !important; content: '' !important ; background-image: url(../images/btn_arrow_right.png); background-size: 100% auto; background-position: center; background-repeat: no-repeat;  }
+.swiper-button-prev.btn-type-prev{outline: none;}
+.swiper-button-next.btn-type-next{outline: none;}
+.swiper-button-prev.btn-type-prev::after{ width: 40px !important; height: 40px !important; content: ''; background-image: url(../images/btn_arrow_left2.png); background-repeat: no-repeat; background-size: 42% auto; background-position: center; outline: none; }
+.swiper-button-next.btn-type-next::after{ width: 40px !important; height: 40px !important; content: ''; background-image: url(../images/btn_arrow_right2.png); background-repeat: no-repeat; background-size: 42% auto; background-position: center; outline: none; } 
+.swiper-button-disabled{ opacity: 0 !important;}
+
+
+
+
+img[lazy="loading"] {width: 25px;}
+img[lazy="error"] {width: 35px;}
+img[lazy="loaded"] {width: auto;height: 100%;max-height: 500px; vertical-align: top; border-radius: 10px; }
+
+
+/* 하고싶은 말 제목, 내용 팝업 */
+.text-wrap {position: fixed;top:0;left:0;width: 100%;height: 100%;z-index: 20000;}
+.text-wrap .text-contain { position: relative;  width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.8);}
+.text-wrap .text-contain .topbar {position: relative;padding: 11px 20px;}
+.text-wrap .text-contain .topbar p {color: #fff;font-size: 1.5rem;display: inline-block;}
+.text-wrap .text-contain .topbar p.confirm {position: absolute;right: 20px;}
+.text-wrap .text-contain .text-box{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);  width: 55.5555556%; height: 0; padding-bottom: 16.3%; background-color: rgba(255, 255, 255, 0.8); border-radius: 5px; }
+.text-wrap .text-contain .text-box textarea{ box-sizing: border-box; position: absolute; width: 100%; height: 100%; background-color: transparent; border: 0; padding: 5px; margin: 0; outline: none; font-size: 2.0rem; text-align: left; font-weight: 600; font-family: 'Noto Sans KR'; line-height: 124%; color: #848484; letter-spacing: 0px;overflow: hidden; word-break: break-all;}
+.text-wrap.TITLE .text-contain .text-box textarea{word-break: keep-all;}
+.text-wrap.CONTENT .text-contain .text-box textarea{word-break: keep-all;}
+.text-wrap .text-contain .text-box.title-a{ width: 47%;}
+.text-wrap .text-contain .text-box.title-b{ width: 65.4%}
+.text-wrap .text-contain .text-box.title-c{ width: 69.2%;}
+.text-wrap .text-contain .text-box.title-d{ width: 36% !important;}
+.text-wrap .text-contain .text-box.contents-a textarea{ font-size:1.2rem;}
+.text-wrap .text-contain .text-box.contents-b { width: 85.4%}
+.text-wrap .text-contain .text-box.contents-c textarea{}
+.text-wrap .text-contain .text-box.contents-d.design-type-d-content{ width:42.4% !important}
+.text-wrap .text-contain .text-box button{ position: absolute; top: -24px; right: 3px; padding: 0px 10px; font-size: 1.1rem !important; line-height: 150% !important; color: #FFF; font-weight: 200 !important; border: 1px #FFF solid; border-radius: 50px;}
+.text-wrap .text-contain .text-box p.desc{ position: absolute; left: 50%; transform: translateX(-50%); bottom: -50px; width: 200%;  text-align: center; color:#C4C4C4 ; font-size: 1.3rem; font-weight: 200;}
+.text-wrap .text-contain .text-box .textlength{ position: absolute; right: 2px; bottom: -17px; font-size: 1.05rem; color: #C4C4C4; font-weight: 200; }
+.text-wrap .text-contain .text-box .textlength span{ color: #C4C4C4; }
+.text-wrap .text-contain .text-box .placeholder{ position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: transparent; border: 0; padding: 5px; margin: 0; outline: none; font-size: 1.7rem; text-align: left; font-weight: 600; font-family: 'Noto Sans KR'; line-height: 125%; color: #848484; letter-spacing: 0px;overflow: hidden;}
+.text-wrap .text-contain .text-box .placeholder.placeholdertitle{ box-sizing: border-box; width: 100%; height: 100%; font-size: 2.0rem; text-align: left;font-weight: 600;font-family: 'Noto Sans KR';line-height: 124%;color: #afafaf; }
+.text-wrap .text-contain .text-box .placeholder.placeholdercontents{ box-sizing: border-box; width: 100%; height: 100%; font-size: 1.21rem;text-align: left;font-weight: 400;font-family: 'Noto Sans KR';line-height: 130%;color: #afafaf;  }
+.text-wrap .text-contain .text-box.contents{  padding-bottom: 14%; }
+
+.text-wrap.CONTENT .text-box{ width: 90%; padding-bottom: 10.937%; }
+.text-wrap.CONTENT .text-box.contents{ padding-bottom: 14%; }
+.text-wrap.CONTENT .text-box textarea{   font-size: 1.21rem; font-weight: 400 !important; letter-spacing: 0px;}
+.text-wrap .text-contain .text-box textarea.contents{  font-size: 1.2rem;  }
+
+.text-wrap .text-contain .text-box.design-type-d-title{ width: 35.4166667%; padding-bottom: 21.8055556%; }
+.text-wrap .text-contain .text-box.design-type-d-content{ width: 38.4722222%; padding-bottom: 32.7777778%; font-size:1.3rem; }
+.text-wrap .text-contain .text-box.design-type-d-content textarea{ font-size: 1.3rem; font-weight: 400 !important; line-height: 146.99999%; letter-spacing: -0.5px; }
+.text-wrap .text-contain .text-box.design-type-d-content .placeholder.placeholdercontents{ font-size: 1.3rem; font-weight: 200 !important; line-height: 146.99999%; color: #afafaf; }
+
+/* 인트로 가이드 */
+.intro-guide-wrap{ position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 9999; background-color: #eee;}
+.intro-guide-wrap .intro-contain{ width: 100%; height: 100%;}
+.intro-guide-wrap .intro-contain .swiper-container{ width: 100%; height: calc( 100% - 36px)  }
+/* .intro-guide-wrap .intro-contain .swiper-container .swiper-wrapper .cover{ display: flex; align-items: center;} */
+.intro-guide-wrap .intro-contain .page{ background-color: #EEEEEE; }
+.intro-guide-wrap .intro-contain .page .contents{ position: relative; width: 100%; height: 50%;   background-image: url(../images/intro-cover.png); background-size: calc( 100% - 20px); background-size: 100% auto; background-position:center top; background-repeat: no-repeat; top:50%; transform: translateY(-50%); display: inline-block; }
+.intro-guide-wrap .intro-contain .page.cover{ box-sizing: border-box;  width: 100%; height: 100%; padding: 20px; background-color: #EEEEEE; }
+.intro-guide-wrap .intro-contain .page.cover .contents{ height: 0; padding-bottom: 100%; background-image: url(../images/intro-cover.png); }
+.intro-guide-wrap .intro-contain .page.cover .contents .box{  box-sizing: border-box; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);  width: 100%; padding: 5px 20px; border-radius: 50px; background-color: #84662D; margin: 0 auto; margin-top: 84%;}
+.intro-guide-wrap .intro-contain .page.cover .contents .box p{ color: #FFF; font-size: 1.8rem; font-weight: 400;}
+.intro-guide-wrap .intro-contain .page.page01 .contents{ height: 0; padding-bottom: 120%; background-image: url(../images/intro-contents01.png); }
+.intro-guide-wrap .intro-contain .page.page02 .contents{height: 0; padding-bottom: 120%; background-image: url(../images/intro-contents02.png); }
+.intro-guide-wrap .intro-contain .page.page03 .contents{height: 0; padding-bottom: 120%; background-image: url(../images/intro-contents03.png); }
+.intro-guide-wrap .intro-contain .page.page04 .contents{height: 0; padding-bottom: 120%; background-image: url(../images/intro-contents04.png); }
+
+.intro-guide-wrap .intro-contain .intro-bottom-bar{ box-sizing: border-box; position: relative; width: 100%; height: 36px; background-color:#132F56; padding: 0px 20px }
+.intro-guide-wrap .intro-contain .intro-bottom-bar > div{ height: 100%; display: inline-block; }
+.intro-guide-wrap .intro-contain .intro-bottom-bar > div > p{ color: #FFF; font-size: 1.2rem; font-weight: 200; line-height: 36px; }
+.intro-guide-wrap .intro-contain .intro-bottom-bar > div.today-off{ float: left;  }
+.intro-guide-wrap .intro-contain .intro-bottom-bar > div.off{ float: right; }
+
+.intro-guide-wrap .intro-contain .swiper-pagination-bullets{ padding-bottom: 20px;}
+
+
+/* 크롭 백그라운드 가이드 얼럿 */
+.crop-image-background{  z-index: 9999;}
+.crop-image-background .guide-alert-area{ position: fixed; left: 0; top: 0; width: 100%; height: calc(100% + 43px)  ;  z-index: 99999; background-color: rgba(0, 0, 0, 0.5); margin-top: -43px; }
+.crop-image-background .guide-alert-area .alert{ position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); line-height: 0;}
+.crop-image-background .guide-alert-area .alert .image-guide{  width: 270px; height: 134px; background-color:rgba(255, 255, 255, 0.9); border-top-left-radius: 15px; border-top-right-radius: 15px; background-image: url(../images/crop-background-image-guide.png); background-repeat: no-repeat; background-size: auto 85% ; background-position: center 15px; }
+.crop-image-background .guide-alert-area .alert .btn-off{ width: 270px; height: 49px; line-height: 49px; font-size: 1.6rem; color: #221F20; background-color:rgba(239, 239, 239, 0.9); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; text-align: center; border-top: 1px #CCCCCC solid ;}

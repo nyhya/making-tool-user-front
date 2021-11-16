@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1125" height="235" viewBox="0 0 1125 235">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1348" data-name="사각형 1348" width="1125" height="199" transform="translate(2024 -1057)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001a26"/>
+      <stop offset="0.418" stop-color="#073453"/>
+      <stop offset="0.622" stop-color="#76a6cb"/>
+      <stop offset="0.695" stop-color="#093d6b"/>
+      <stop offset="1" stop-color="#023461"/>
+    </linearGradient>
+  </defs>
+  <g id="그룹_1836" data-name="그룹 1836" transform="translate(-2419 1155)">
+    <g id="마스크_그룹_6" data-name="마스크 그룹 6" transform="translate(395 -62)" clip-path="url(#clip-path)">
+      <path id="패스_3413" data-name="패스 3413" d="M2081.781,475.792c-110.87,25.668-222.813,41.016-333.636,37.7C1556.21,507.513,1369,450.587,1179.206,398.218c-186.4-51.307-382.093-88.827-568.764-72.642-110.077,9.653-216.731,35.491-322.894,67.571v10.381c106.956-27.8,214.246-49.3,323.735-54.3,189.014-8.486,383.323,37.78,569.622,96.82,190.062,60.386,375.733,124.9,569.8,138.653,109.061,7.619,220.456-3.056,331.08-24.008Z" transform="matrix(0.996, -0.087, 0.087, 0.996, 1561.991, -1298.788)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="그룹_1835" data-name="그룹 1835" transform="translate(3741.042 -1623.522)">
+      <path id="패스_3412" data-name="패스 3412" d="M-1147.442,534.318c184.516-32.36,382.69-12.016,572.808,22.869,126.566,23.306,252.2,48.645,377.592,60.4V468.522h-1125V578.369C-1264.868,560.015-1206.875,544.8-1147.442,534.318Z" fill="#e9e9e9"/>
+    </g>
+  </g>
+</svg>
